@@ -1,0 +1,72 @@
+{
+    "perhaps": {
+        "traducao": "Talvez",
+        "descricaoIngles": "Used to express uncertainty or possibility, when one does not wish to be too definite or assertive in the expression of an opinion, when making a polite request, offer, or suggestion. (adverb)",
+        "descricaoPortugues": "Indica possibilidade, mas não certeza. Sinônimos: acaso, quiçá, porventura.",
+        "fraseIngles": "Perhaps I will cry tonight when I finish the movie.",
+        "fraseConto": "Ele começa a pensar sobre o que pode ter acontecido, talvez alguém foi assassinado, pode ter acontecido alguma briga de bar, um acidente."
+    },
+    "actually": {
+        "traducao": "Na verdade",
+        "descricaoIngles": "As the truth or facts of a situation; really. Used to emphasize that something someone has said or done is surprising. (adverb)",
+        "descricaoPortugues": "É usada em uma afirmação que não é falsa, mas em que se oculta alguma informação.",
+        "fraseIngles": "Actually I never watched this movie.",
+        "fraseConto": "Na verdade, mereciam sim - Disse a mesma mulher que estava na para de ônibus"
+    },
+    "push": {
+        "traducao": "Empurrar",
+        "descricaoIngles": "Exert force on (someone or something), typically with one's hand, in order to move them away from oneself or the origin of the force. (verb)",
+        "descricaoPortugues": "Impulsionar com força, impelir com vigor, empuxar. Dar encontrões em.",
+        "fraseIngles": "Push the door to open it.",
+        "fraseConto": "Aos 8 anos foi expulso da escola depois de um menino empurrar ele, fazendo-o esbarrar no alarme de incêndio, disparando-o."
+    },
+    "borrow": {
+        "traducao": "Pegar Emprestado",
+        "descricaoIngles": "Take and use (something that belongs to someone else) with the intention of returning it. (verb)",
+        "descricaoPortugues": "Pegar algo emprestado de alguém, com a intenção de devolvê-lo ao dono.",
+        "fraseIngles": "I borrowed her book and forgot to give it back.",
+        "fraseConto": "Mas acho que o Juninho não devolveu o dinheiro que pegou emprestado."
+    },
+    "although": {
+        "traducao": "Embora",
+        "descricaoIngles": "In spite of the fact that; even though; however; but. (conjunction)",
+        "descricaoPortugues": "Enquanto, mesmo que, apesar de que, ainda que.",
+        "fraseIngles": "Although I told you why, I don't remember.",
+        "fraseConto": "Embora tenha ficado triste por alguém ter perdido dinheiro, Hermes pega a nota e entra no local para pedir um café e um salgadinho."
+    },
+    "traffic": {
+        "traducao": "Tráfego",
+        "descricaoIngles": "Vehicles moving on a road or public highway. (noun)",
+        "descricaoPortugues": "Movimento ou fluxo de veículos.",
+        "fraseIngles": "He died in a traffic accident.",
+        "fraseConto": "Depois que um outro ônibus chegou, que até que não demorou muito, pois o tráfego estava bom naquele dia [...]"
+    },
+    "awful": {
+        "traducao": "Horrível",
+        "descricaoIngles": "Very bad or unpleasant. Used to emphasize the extent of something, especially something unpleasant or negative. (adjective)",
+        "descricaoPortugues": "Adjetivo usado para algo muito ruim ou desagradável; horroroso, péssimo.",
+        "fraseIngles": "I had an awful day last week.",
+        "fraseConto": "Você viu aquele acidente que aconteceu na avenida Amanhecer? Foi horrível!"
+    },
+    "principal": {
+        "traducao": "Diretor",
+        "descricaoIngles": "The person with the highest authority or most important position in an organization, institution, or group. (noun)",
+        "descricaoPortugues": "Aquele que dirige ou orienta; dirigente, gestor. Aquele que ocupa o cargo mais alto numa administração.",
+        "fraseIngles": "He is the school's principal.",
+        "fraseConto": "Sobre as mortes das pessoas, não. Eu só cumpro ordens do diretor."
+    },
+    "rug": {
+        "traducao": "Tapete",
+        "descricaoIngles": "A floor covering of thick woven material or animal skin, typically not extending over the entire floor. (noun)",
+        "descricaoPortugues": "Revestimento feito de algum material (normalmente tecido) para revestir pisos.",
+        "fraseIngles": "In the winter, I usually put a rug on my living room floor.",
+        "fraseConto": "Quando tinha apenas 3 anos de idade, acabou escorregando no tapete de sua casa, ficando com uma cicatriz no queixo."
+    },
+    "clover": {
+        "traducao": "Trevo",
+        "descricaoIngles": "A herbaceous plant of the pea family that has dense, globular flower heads, and leaves that are typically three-lobed. It is an important and widely grown fodder and rotational crop. (noun)",
+        "descricaoPortugues": "Design. comum a diversas plantas que têm folhas compostas por três folíolos; trifólio.",
+        "fraseIngles": "I am feeling lucky, I found a four leaf clover.",
+        "fraseConto": "No meio da calçada, um único trevo de quatro folhas."
+    }
+}

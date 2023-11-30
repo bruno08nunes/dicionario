@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dicionário</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header class="header-palavras">
         <h1 class="h1-nome">Bruno Nunes</h1>
     </header>
+
     <main class="main-palavras">
         <h2>Palavras</h2>
         <section class="section-ingles">
             <p>Perhaps</p>
             <p>Actually</p>
             <p>Push</p>
-            <p>To Borrow</p>
+            <p>Borrow</p>
             <p>Although</p>
             <p>Traffic</p>
             <p>Awful</p>
@@ -24,6 +26,20 @@
             <p>Rug</p>
             <p>Clover</p>
         </section>
+
+        <h2>Frases</h2>
+        <section class="section-frases">
+            <div class="div-palavra">
+                <h2 class="titulo-frase-ingles">Frase em inglês - Perhaps</h2>
+                <button class="audio-frase"><span class="material-symbols-outlined">volume_up</span></button>
+            </div>
+            <p class="frase-ingles">Perhaps I will cry tonight when I finish the movie.</p>
+            <div class="div-palavra">
+                <h2 class="titulo-frase-portugues">Frase em português - Talvez</h2>
+            </div>
+            <p class="frase-conto">Ele começa a pensar sobre o que pode ter acontecido, talvez alguém foi assassinado, pode ter acontecido alguma briga de bar, um acidente.</p>
+        </section>
+
         <section class="section-dialogo">
             <div class="div-dialogo-botao">
                 <h2 class="h2-dialogo">Diálogo - Como a tecnologia muda o mundo</h2>
@@ -57,17 +73,19 @@
             </div>
         </section>
     </main>
+
+    <!-- Parte do modal -->
     <div class="backdrop"></div>
     <span class="modal">
         <div class="div-palavra">
             <p class="palavra-ingles">Perhaps</p>
-            <button class="audio-ingles">Áudio</button>
+            <button class="audio-ingles"><span class="material-symbols-outlined">volume_up</span></button>
         </div>
         <hr>
         <p class="explicacao-ingles">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non placeat natus vero illum alias autem tenetur iusto, itaque dolores, et veritatis inventore qui? Consequatur labore libero necessitatibus eaque ab voluptatibus, cupiditate velit repellendus nihil, omnis incidunt! Explicabo, itaque facere! Doloribus.</p>
         <div class="div-palavra">
             <p class="palavra-portugues">Talvez</p>
-            <button class="audio-portugues">Áudio</button>
+            <button class="audio-portugues"><span class="material-symbols-outlined">volume_up</span></button>
         </div>
         <hr>
         <p class="explicacao-portugues">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque rem cupiditate saepe, iste est, sint illo dignissimos, aut temporibus ex iusto ea quae modi veniam porro. Nam, voluptas recusandae qui exercitationem perferendis voluptatum beatae obcaecati ullam quia, ipsa ad necessitatibus.</p>

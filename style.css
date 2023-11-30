@@ -1,9 +1,12 @@
 * {
+    /* Reset */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Cabeçalho */
 
 .header-palavras {
     text-align: end;
@@ -14,15 +17,25 @@
     font-weight: normal;
 }
 
+/* Main */
+
 .main-palavras {
     padding: 15px;
 }
 
 .main-palavras h2 {
+    /* Título escrito palavras */
     font-weight: normal;
-    font-size: 2.4em;
     margin-bottom: 15px;
 }
+
+.main-palavras > h2 {
+    font-size: 2.4em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+/* Seção com as palavras em inglês */
 
 .section-ingles {
     display: grid;
@@ -42,7 +55,25 @@
     cursor: pointer;
 }
 
+/* Frase */
+
+.section-frases {
+    background-color: lightgray;
+    margin: 30px 0;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.section-frases h2 {
+    font-size: 1em;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+/* Diálogo */
+
 .div-dialogo-botao {
+    /* Div que tem o botão e o título dentro */
     margin: 0 20px;
     margin-top: 40px;
     display: flex;
@@ -64,6 +95,7 @@ h2.h2-dialogo {
 }
 
 .dialogo {
+    /* Diálogo em si */
     background-color: lightgray;
     margin-top: 20px;
     font-size: 1.7em;
@@ -73,9 +105,11 @@ h2.h2-dialogo {
     flex-direction: column;
     gap: 15px;
     overflow: hidden;
+    animation: abrir .8s;
 }
 
 .dialogo div {
+    /* Cada fala de alguém */
     display: flex;
     gap: 15px;
 }
@@ -88,9 +122,47 @@ h2.h2-dialogo {
 }
 
 .dialogo div:nth-child(2n) {
+    /* Faz ficar invertido a cada diálogo */
     justify-content: end;
     flex-direction: row-reverse;
 }
+
+.btn-dialogo {
+    transition: .4s;
+    background-color: lightgray;
+}
+
+.btn-fechado {
+    rotate: -90deg;
+}
+
+.dialogo-fechado {
+    animation: fechar .8s forwards;
+}
+
+@keyframes fechar {
+    from {
+        max-height: 400px;
+    }
+    to {
+        padding: 0 20px;
+        max-height: 0;
+        display: none;
+        margin-top: 0;
+    }
+}
+
+@keyframes abrir {
+    from {
+        max-height: 0;
+        padding: 0 20px;
+    }
+    to {
+        max-height: 400px;
+    }
+}
+
+/* Modal */
 
 .backdrop {
     transition: .4s;
@@ -135,18 +207,9 @@ h2.h2-dialogo {
     font-size: 1.3em;
 }
 
-hr {
+.modal hr {
     margin-bottom: 15px;
     border-color: black;
-}
-
-.btn-dialogo {
-    transition: .4s;
-    background-color: lightgray;
-}
-
-.fechado {
-    rotate: -90deg;
 }
 
 @keyframes sumir {
@@ -165,26 +228,5 @@ hr {
     }
     to {
         opacity: 1;
-    }
-}
-
-@keyframes fechar {
-    from {
-        max-height: 400px;
-    }
-    to {
-        padding: 0 20px;
-        max-height: 0;
-        display: none;
-    }
-}
-
-@keyframes abrir {
-    from {
-        max-height: 0;
-        padding: 0 20px;
-    }
-    to {
-        max-height: 400px;
     }
 }
