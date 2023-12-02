@@ -43,7 +43,7 @@ palavras.forEach((palavra) => {
         const palavraIngles = document.querySelector(".palavra-ingles");
         palavraIngles.textContent = valor;
         
-        valor = valor.toLowerCase()
+        valor = valor.toLowerCase();
         const palavraPortugues = document.querySelector(".palavra-portugues");
         palavraPortugues.textContent = informacoes[valor].traducao;
         
